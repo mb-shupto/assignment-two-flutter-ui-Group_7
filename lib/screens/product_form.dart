@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:store_inventory_tracker/models/product.dart';
 import 'package:store_inventory_tracker/widgets/text_input_widget.dart';
 import 'package:store_inventory_tracker/util/validators.dart';
 
 class ProductForm extends StatefulWidget {
-  const ProductForm({super.key});
+  const ProductForm({super.key, required Product product});
 
   @override
   State<ProductForm> createState() => _ProductFormState();

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:store_inventory_tracker/screens/product_form.dart';
+import 'package:store_inventory_tracker/screens/product_list_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),
       ),
 
-      home: ProductForm(),
+      home: ProductListScreen(),
     );
   }
 }
